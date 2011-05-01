@@ -17,6 +17,8 @@
 package org.lionart.commons.lang
 {
     import flexunit.framework.TestCase;
+    import org.lionart.commons.lang.data.ASType;
+    import org.lionart.commons.lang.data.JavaType;
 
     public class TestEnum extends TestCase
     {
@@ -25,17 +27,17 @@ package org.lionart.commons.lang
             super(methodName);
         }
 
-        override public function setUp() : void
+        override public function setUp():void
         {
             super.setUp();
         }
 
-        override public function tearDown() : void
+        override public function tearDown():void
         {
             super.tearDown();
         }
 
-        public function testEnum() : void
+        public function testEnum():void
         {
             assertFalse(ASType.STRING.equals(ASType.DATE));
             assertFalse(ASType.BOOLEAN.equals(ASType.DATE));

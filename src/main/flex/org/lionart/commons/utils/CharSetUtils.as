@@ -19,12 +19,13 @@ package org.lionart.commons.utils
 
     /**
      *
-     * @author gtriki
+     * @author Ghazi Triki
      *
      */
     public final class CharSetUtils
     {
-        private static const SUPPORTED_CHAR_SETS:Array=["ASMO-708", // Arabic (ASMO 708)
+        private static const SUPPORTED_CHAR_SETS:Array=[
+            "ASMO-708", // Arabic (ASMO 708)
             "DOS-720", // Arabic (DOS)
             "iso-8859-6", "arabic", "csISOLatinArabic", "ECMA-114", "ISO_8859-6", "ISO_8859-6:1987", "iso-ir-127", // Arabic (ISO)
             "x-mac-arabic", // Arabic (Mac)
@@ -151,7 +152,7 @@ package org.lionart.commons.utils
          * @return true if Character Set is supporte
          *
          */
-        public static function isSupportedCharSet( charSetName : String ) : Boolean
+        public static function isSupportedCharSet( charSetName : String ):Boolean
         {
             return CharSetUtils.SUPPORTED_CHAR_SETS.indexOf(charSetName) > -1;
         }

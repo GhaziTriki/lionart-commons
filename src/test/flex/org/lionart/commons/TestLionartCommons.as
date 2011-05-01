@@ -23,7 +23,7 @@ package org.lionart.commons
 
     public class TestLionartCommons extends TestSuite
     {
-        public static function suite() : TestSuite
+        public static function suite():TestSuite
         {
             var newTestSuite:TestSuite = new TestSuite();
             newTestSuite.addTestSuite(org.lionart.commons.utils.TestCharSetUtils);

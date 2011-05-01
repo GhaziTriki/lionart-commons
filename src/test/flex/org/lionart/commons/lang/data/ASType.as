@@ -14,8 +14,9 @@
  You should have received a copy of the GNU General Public License
  along with this program. If not, see <http://www.gnu.org/licenses/>.
 */
-package org.lionart.commons.lang
+package org.lionart.commons.lang.data
 {
+    import org.lionart.commons.lang.Enum;
 
     /**
      * The SQL data types that are supported. These are basically an enumeration of the constants in java.sql.Types.
